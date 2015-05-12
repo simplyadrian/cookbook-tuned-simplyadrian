@@ -1,8 +1,8 @@
 #
-# Cookbook Name:: tuned-nativex
+# Cookbook Name:: tuned-simplyadrian
 # Recipe:: apply_profile
 #
-# Copyright 2014, NativeX
+# Copyright 2014, simplyadrian
 #
 # All rights reserved - Do Not Redistribute
 # Sets a profile active.  If it is custom, installs the profile from the cookbook files directory.

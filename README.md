@@ -1,4 +1,4 @@
-tuned-nativex Cookbook
+tuned-simplyadrian Cookbook
 ======================
 This cookbook installs, configures and enables the 'tuned' service.  It also allows for custom profiles to be created and applied by the cookbook.
 
@@ -47,20 +47,20 @@ Recipes
 
 Usage
 -----
-#### tuned-nativex::default
+#### tuned-simplyadrian::default
 
-Just include `tuned-nativex` in your node's `run_list` to install 'tuned' with it's out-of-the-box configuration:
+Just include `tuned-simplyadrian` in your node's `run_list` to install 'tuned' with it's out-of-the-box configuration:
 
 ```json
 {
   "name":"my_node",
   "run_list": [
-    "recipe[tuned-nativex]"
+    "recipe[tuned-simplyadrian]"
   ]
 }
 ```
 
-#### tuned-nativex::apply_profile
+#### tuned-simplyadrian::apply_profile
 
 - Include this recipe in the node's `run_list` (after `default`) to enable a specific built-in or custom profile.
 - Set `node['tuned']['active_profile']` to specify which profile to use.

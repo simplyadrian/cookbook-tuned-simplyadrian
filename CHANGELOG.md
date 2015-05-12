@@ -1,11 +1,11 @@
-tuned-nativex CHANGELOG
+tuned-simplyadrian CHANGELOG
 =======================
 
-This file is used to list changes made in each version of the tuned-nativex cookbook.
+This file is used to list changes made in each version of the tuned-simplyadrian cookbook.
 
 0.1.0
 -----
-- [your_name] - Initial release of tuned-nativex
+- [Adrian Herrera] - Initial release of tuned-simplyadrian
 
 - - -
 Check the [Markdown Syntax Guide](http://daringfireball.net/projects/markdown/syntax) for help with Markdown.
